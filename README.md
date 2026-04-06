@@ -173,8 +173,14 @@ python Q2/detector.py \
 | ResNet34 Det | BIM    | -         | -       | TBD          |
 
 Results of Q2:
+fgsm_comparison_eps0 1:
 <img width="3000" height="900" alt="fgsm_comparison_eps0 1" src="https://github.com/user-attachments/assets/355b283a-5e5e-4808-905a-07a818c86391" />
+pgd_samples:
 <img width="3000" height="600" alt="pgd_samples" src="https://github.com/user-attachments/assets/f558a669-de7d-4be8-aeaf-258be8842af3" />
+fgsm_eps_vs_acc:
 <img width="1200" height="750" alt="fgsm_eps_vs_acc" src="https://github.com/user-attachments/assets/524123f6-3be5-4bd5-90cc-917467801cfa" />
+bim_samples:
+<img width="3000" height="600" alt="bim_samples" src="https://github.com/user-attachments/assets/fbe04f6b-2a1d-43dd-b8f9-e999924b487e" />
+
 
 
