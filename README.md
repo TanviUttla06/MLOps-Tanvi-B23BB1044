@@ -103,6 +103,11 @@ python Q1/push_to_hub.py \
 ---
 
 ## Q1 Results
+###Train - val Accuracy Table
+|Experiment No. |  train/acc   |  val/acc |
+|--------------|--------------|----------|
+|Baseline       | 0.83914      | 0.7968   |
+
 
 ### Test Accuracy Table
 
@@ -118,6 +123,11 @@ python Q1/push_to_hub.py \
 | Yes  | 8    | 2     | 0.1     | 0.8966       | 480,868 / 22,146,532 (2.17%)             |
 | Yes  | 8    | 4     | 0.1     | 0.8999       | 480,868 / 22,146,532 (2.17%)             |
 | Yes  | 8    | 8     | 0.1     | 0.9028       | 480,868 / 22,146,532 (2.17%)             |
+
+Graphs:
+<img width="891" height="463" alt="image" src="https://github.com/user-attachments/assets/ddd774d3-8e98-42a6-9968-67bd5f98a438" />
+
+<img width="891" height="479" alt="image" src="https://github.com/user-attachments/assets/86b89d64-f03c-42ba-9b11-8a38dcc9638e" />
 
 ---
 
@@ -161,5 +171,10 @@ python Q2/detector.py \
 | ResNet18     | FGSM   | 0.942     | 0.7080(epsilon=0.01)  | -            |
 | ResNet34 Det | PGD    | -         | -       | 0.5          |
 | ResNet34 Det | BIM    | -         | -       | TBD          |
+
+Results of Q2:
+<img width="3000" height="900" alt="fgsm_comparison_eps0 1" src="https://github.com/user-attachments/assets/355b283a-5e5e-4808-905a-07a818c86391" />
+<img width="3000" height="600" alt="pgd_samples" src="https://github.com/user-attachments/assets/f558a669-de7d-4be8-aeaf-258be8842af3" />
+<img width="1200" height="750" alt="fgsm_eps_vs_acc" src="https://github.com/user-attachments/assets/524123f6-3be5-4bd5-90cc-917467801cfa" />
 
 
