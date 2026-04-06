@@ -171,6 +171,9 @@ python Q2/detector.py \
 | ResNet18     | FGSM   | 0.942     | 0.7080(epsilon=0.01)  | -            |
 | ResNet34 Det | PGD    | -         | -       | 0.5          |
 | ResNet34 Det | BIM    | -         | -       | TBD          |
+Train graph:
+<img width="845" height="471" alt="image" src="https://github.com/user-attachments/assets/32762a61-c27f-4045-8b77-7f90fbf58200" />
+<img width="837" height="453" alt="image" src="https://github.com/user-attachments/assets/55acd705-b190-4d10-a336-ac3303e68611" />
 
 Results of Q2:
 fgsm_comparison_eps0 1:
@@ -181,6 +184,7 @@ fgsm_eps_vs_acc:
 <img width="1200" height="750" alt="fgsm_eps_vs_acc" src="https://github.com/user-attachments/assets/524123f6-3be5-4bd5-90cc-917467801cfa" />
 bim_samples:
 <img width="3000" height="600" alt="bim_samples" src="https://github.com/user-attachments/assets/fbe04f6b-2a1d-43dd-b8f9-e999924b487e" />
+
 
 
 
