@@ -1,8 +1,8 @@
 # MLOps-Tanvi-B23BB1044
 # Assignment 5 — ViT LoRA Fine-tuning & Adversarial Attacks
 
-> WandB Project: [link here]  
-> HuggingFace Model: [link here]
+> WandB Project:         https://wandb.ai/b23bb1044-iit-jodhpur/projects 
+> HuggingFace Model: https://huggingface.co/tanvi130506
 
 ---
 
