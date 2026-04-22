@@ -1,50 +1,49 @@
 # MLOps-Tanvi-B23BB1044
 
-\# NLP Translation Task (Q1)
+ NLP Translation Task (Q1)
 
 
 
-\## Model Used
+ Model Used
 
 Helsinki-NLP/opus-mt-bn-en
 
 
 
-\## Steps to Run
+ Steps to Run
 
 
 
-\### Build Docker Image
+ Build Docker Image
 
 docker build -t translator .
 
 
 
-\### Run Translation
+ Run Translation
 
 docker run --rm -v C:\\Users\\tanvi\\OneDrive\\Desktop\\Q1:/app translator
 
 
 
-\### Evaluate BLEU Score
+ Evaluate BLEU Score
 
 python evaluate.py
 
 
 
-\## First Sentence Output
+First Sentence Output
 
-I am a student.
-
-
-
-\## BLEU Score
-
-0.49
+I have a test today.
 
 
 
-\## Files Included
+ BLEU Score
+
+0.48946657165068425
+
+
+ Files Included
 
 \- Dockerfile
 
